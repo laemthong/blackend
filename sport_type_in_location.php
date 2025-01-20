@@ -59,6 +59,7 @@ if (isset($_GET['delete'])) {
     }
 }
 
+//ลบทั้งหมด
 if (isset($_GET['delete_all'])) {
     $location_id = $_GET['location_id'];
     $sql = "DELETE FROM sport_type_in_location WHERE location_id='$location_id'";
